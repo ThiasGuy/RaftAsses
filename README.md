@@ -41,7 +41,7 @@ This project is a .NET Core Web API built using Visual Studio 2022. It exposes u
 
 ### 1. Clone the Repository
 
-# bash
+```bash
 git clone https://github.com/ThiasGuy/RaftAsses
 cd RaftAssess
 dotnet restore
