@@ -4,7 +4,7 @@
 
 This project is a .NET Core Web API built using Visual Studio 2022. It exposes user-related endpoints through two controllers. The application fetches data from external APIs, caches the results using `IMemoryCache`, and implements resilience using `Polly`. Dependency Injection is used for all services.
 
-## Project Structure
+## Project Architecture
 
 ├── Controllers
 │ └── UserController.cs # Contains two user-related endpoints
@@ -18,7 +18,7 @@ This project is a .NET Core Web API built using Visual Studio 2022. It exposes u
 │ ├── IUserService.cs # Interface for UserService
 │ └── IHttpClientService.cs # Interface for HttpClientService
 ├── Startup.cs / Program.cs # Configures services, DI, caching, and middleware
-└── README.md
+└── README.md # Project documentation
 
 
 ## Features
@@ -41,7 +41,7 @@ This project is a .NET Core Web API built using Visual Studio 2022. It exposes u
 
 ### 1. Clone the Repository
 
-# bash
+``` bash
 git clone https://github.com/ThiasGuy/RaftAsses
 cd RaftAssess
 dotnet restore
