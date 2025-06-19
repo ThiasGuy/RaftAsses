@@ -1,0 +1,6 @@
+@RaftAssesment_HostAddress = http://localhost:5079
+
+GET {{RaftAssesment_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
